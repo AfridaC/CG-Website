@@ -46,6 +46,16 @@ h3.title3{
   text-align: center;
 }
 
+/*Ingridients Titles*/
+div.ing_titles {
+  margin-right: 15px;
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  
+}
+
+
 /* Ingredients images */
 div.row{
   margin-right: 15px;
