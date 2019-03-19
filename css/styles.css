@@ -23,6 +23,7 @@ header{
   display: flex;
   justify-content: flex-end;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 body{
@@ -52,7 +53,7 @@ div.ing_titles {
   margin-left: 10px;
   display: flex;
   justify-content: center;
-  
+
 }
 
 
