@@ -22,13 +22,22 @@
         <div class="nav_logo">
           <img src="images/VegLogo.png" height="30px">
         </div>
-            <ul class="list_nav_bar">
-              <li>  Home  </li>
-              <li>  About  </li>
-              <li>  All recipes  </li>
-              <li>  Learn </li>
-              <li>  Contact  </li>
-            </ul>
+
+  <div class="btn-group">
+      <button
+      type="button"
+      class="btn btn-info dropdown-toggle"
+      data-toggle="dropdown"
+      aria-haspopup="true"
+      aria-expanded="false">
+      Main menu
+      </button>
+  <div class="dropdown-menu">
+    <a class="dropdown-item" href="#">About</a>
+    <a class="dropdown-item" href="#">All recipes</a>
+    <a class="dropdown-item" href="#">Contact</a>
+    <div class="dropdown-divider"></div>
+</div>
      </nav>
   </div>
 </header>
@@ -85,7 +94,9 @@
 
 
    <div class="btn_container">
-        <button type="button" class="start_btn">Let's start!</button>
+        <button
+        type="button" 
+        class="start_btn">Let's start!</button>
    </div>
 </body>
 </html>
