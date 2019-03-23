@@ -30,6 +30,7 @@ header{
 body{
   background-color: rgb(193,255,235);
   font-family: sans-serif;
+  padding: 20px 60px;
 }
 
 /* Titles */
@@ -77,7 +78,6 @@ div.row{
   padding: 30px;
 }
 
-
 /* Let's start Button */
 .btn_container{
   margin-right: 15px;
@@ -91,4 +91,27 @@ div.row{
     font-size: 25px;
     padding: 10px;
     background-color: lightpink;
+}
+
+
+/* recipe */
+.car_col{
+  color: rgb(34,34,34);
+}
+.ing_block{
+  padding: 20px 20px;
+  background-color: rgb(210,255,242);
+}
+
+ul.ing_list{
+  font-size: 12px;
+  list-style-type: none;
+  padding: 10px;
+}
+
+h4.title4{
+  font-size: 15px;
+}
+.recipe{
+  font-size: 15px;
 }
