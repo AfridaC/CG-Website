@@ -1,4 +1,8 @@
 /*Recipe page css styles*/
+/*nav*/
+.nav_styles{
+    background-color: rgb(200,255,235);
+}
 
 /* Carousel  */
 .btn_yes{
@@ -27,16 +31,11 @@ background-size: cover;
 ul.ing_list{
   font-size: 12px;
   list-style-type: none;
-  padding: 10px;
+  padding: 0px;
 }
 
 .rec_info{
   font-size: 14px;
   list-style-type: none;
-  padding: 10px;
-}
-.ing_img{
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
