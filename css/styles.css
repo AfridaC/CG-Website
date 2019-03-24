@@ -92,34 +92,3 @@ div.row{
     padding: 10px;
     background-color: lightpink;
 }
-
-
-
-/* recipe */
-.recipe_title{
-  font-size: 20px;
-  padding: 20px 20px;
-}
-
-div.bg_image
-{
-  background-image: url("image/recipe_background.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-}
-ul.ing_list{
-  font-size: 12px;
-  list-style-type: none;
-  padding: 10px;
-}
-
-.rec_info{
-  font-size: 14px;
-  list-style-type: none;
-  padding: 10px;
-}
-.ing_img{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}

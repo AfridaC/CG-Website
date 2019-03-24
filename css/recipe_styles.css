@@ -1,0 +1,42 @@
+/*Recipe page css styles*/
+
+/* Carousel  */
+.btn_yes{
+  border-color: white;
+  border-style: double;
+  display: inline;
+  font-size: 24px;
+}
+/* Recipe */
+.recipe_title{
+  font-size: 100px;
+  padding-top: 40px;
+}
+
+.car_style{
+  padding: 40px 120px;
+}
+
+div.bkg_image{
+background-image: url("../images/recipe_background.jpg");
+padding: 0px;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+ul.ing_list{
+  font-size: 12px;
+  list-style-type: none;
+  padding: 10px;
+}
+
+.rec_info{
+  font-size: 14px;
+  list-style-type: none;
+  padding: 10px;
+}
+.ing_img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
