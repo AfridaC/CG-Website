@@ -29,7 +29,7 @@ header{
 
 body{
   background-color: rgb(193,255,235);
-  font-family: sans-serif;
+  font-family: Courier;
   padding: 20px 60px;
 }
 
@@ -94,24 +94,32 @@ div.row{
 }
 
 
+
 /* recipe */
-.car_col{
-  color: rgb(34,34,34);
-}
-.ing_block{
+.recipe_title{
+  font-size: 20px;
   padding: 20px 20px;
-  background-color: rgb(210,255,242);
 }
 
+div.bg_image
+{
+  background-image: url("image/recipe_background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
 ul.ing_list{
   font-size: 12px;
   list-style-type: none;
   padding: 10px;
 }
 
-h4.title4{
-  font-size: 15px;
+.rec_info{
+  font-size: 14px;
+  list-style-type: none;
+  padding: 10px;
 }
-.recipe{
-  font-size: 15px;
+.ing_img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
