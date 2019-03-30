@@ -1,16 +1,16 @@
 //hide all recipes as default
 $(function() {
-  $('.ckn_korma').hide();
-  $('.ckn_burrito').hide()
+  $('.recipe_1').hide();
+  $('.recipe_2').hide()
 });
 
 
 //the ingredients and method appear when user clicks 'tell me more' button
-$(".ckn_korma_btn.lets_try").click(function(){
-  $(".ckn_korma").show(10);
-  $('.ckn_burrito').hide()
+$(".recipe_1_btn.lets_try").click(function(){
+  $(".recipe_1").show(10);
+  $('.recipe_2').hide()
 });
-  $(".ckn_burrito_btn.lets_try").click(function(){
-  $(".ckn_burrito").show(10);
-  $('.ckn_korma').hide();
+  $(".recipe_2_btn.lets_try").click(function(){
+  $(".recipe_2").show(10);
+  $('.recipe_1').hide();
 });
