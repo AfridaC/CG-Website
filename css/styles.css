@@ -21,6 +21,9 @@ header{
   flex-wrap: wrap;
 }
 
+.btn_stlye{
+float: right;
+}
 body{
   background-color: rgb(193,255,235);
   font-family: Courier;
