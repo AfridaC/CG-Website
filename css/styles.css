@@ -24,8 +24,20 @@ header{
 .btn_stlye{
 float: right;
 }
+
+/*about page css styles */
+h1{
+    background-color: hsla(120, 120%, 50%, 0.3);
+    font-family: courier;
+    color: black;
+    text-align: center;
+    font-size: 4em;
+
+}
+
+
 body{
-  background-color: rgb(193,255,235);
+  background-color: rgb(200,255,235);
   font-family: Courier;
   padding: 20px 60px;
 }
