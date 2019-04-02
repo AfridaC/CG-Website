@@ -1,5 +1,6 @@
 
-@import url('https://fonts.googleapis.com/css?family=Special+Elite');
+@import url('https://fonts.googleapis.com/css?family=Kotta+One|Podkova|Special+Elite');
+
 
 header{
   background-color: rgb(200,255,235);
@@ -35,11 +36,13 @@ h1{
     color: black;
     text-align: center;
     font-size: 4em;
-
 }
 
-h2,h3 {
-  font-family: 'Special Elite',cursive;
+h3{
+  font-family: 'Kotta One'
+  text-align: center;
+  padding: 10px 300px;
+
 }
 
 body{
@@ -52,7 +55,7 @@ body{
 h1.title{
   font-size: 35px;
   text-align: center;
-  font-family:sans-serif;
+  font-family: 'Kotta One';
   font-style: italic;
   color: purple;
 }
@@ -60,12 +63,13 @@ h1.title{
 h2.title2{
   font-size: 25px;
   text-align: center;
-  font-family: courier;
+  font-family: 'Kotta One';
 }
 
 h3.title3{
   font-size: 15px;
   text-align: center;
+  font-family: 'Podkova'
 }
 
 /*Ingridients Titles*/
