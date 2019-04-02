@@ -21,8 +21,23 @@ header{
   flex-wrap: wrap;
 }
 
+.btn_stlye{
+float: right;
+}
+
+/*about page css styles */
+h1{
+    background-color: hsla(120, 120%, 50%, 0.3);
+    font-family: courier;
+    color: black;
+    text-align: center;
+    font-size: 4em;
+
+}
+
+
 body{
-  background-color: rgb(193,255,235);
+  background-color: rgb(200,255,235);
   font-family: Courier;
   padding: 20px 60px;
 }
@@ -55,6 +70,24 @@ div.ing_titles {
 
 }
 
+/* All recipe styles  */
+.allrcp_style{
+      padding: 30px;
+      margin: 30px;
+      background-color: transparent;
+      border: 10px solid  white;
+      opacity: 0.6;
+      filter: alpha(opacity=60); /* For IE8 and earlier */
+      font-family: Courier;
+      text-align: center;
+      color: black;
+      font-size: 50px;
+      box-sizing: border-box;
+      display: flex;
+      justify-content: center;
+
+
+}
 
 /* Ingredients images */
 div.row{
