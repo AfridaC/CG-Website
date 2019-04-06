@@ -39,7 +39,6 @@ h1{
 }
 
 h3{
-  font-family: 'Kotta One'
   text-align: center;
   padding: 10px 300px;
 
@@ -55,7 +54,6 @@ body{
 h1.title{
   font-size: 35px;
   text-align: center;
-  font-family: 'Kotta One';
   font-style: italic;
   color: purple;
 }
@@ -63,13 +61,11 @@ h1.title{
 h2.title2{
   font-size: 25px;
   text-align: center;
-  font-family: 'Kotta One';
 }
 
 h3.title3{
   font-size: 15px;
   text-align: center;
-  font-family: 'Podkova'
 }
 
 /*Ingridients Titles*/
