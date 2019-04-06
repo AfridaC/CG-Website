@@ -6,11 +6,13 @@
 
 /* Carousel  */
 .btn_yes{
-  border-color: white;
   border-style: double;
   display: inline;
   font-size: 24px;
+  color: white;
+  background-color: hsl(0,0%,0%, 0.1);
 }
+
 /* Recipe */
 .recipe_title{
   font-size: 100px;
@@ -18,16 +20,17 @@
 }
 
 .car_style{
-  padding: 40px 160px;
-  height: 80%;
+  height: 40em;
+  width: 50em;
+  margin: auto;
 }
 
-div.bkg_image{
-background-image: url("../images/recipe_background.jpg");
-padding: 0px;
-background-repeat: no-repeat;
-background-size: cover;
+div.rec_bkg{
+  width: 100%;
+  border: 3px solid green;
+  padding: 10px;
 }
+
 
 ul.ing_list{
   font-size: 16px;

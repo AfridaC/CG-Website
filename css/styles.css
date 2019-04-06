@@ -96,8 +96,6 @@ div.ing_titles {
       box-sizing: border-box;
       display: flex;
       justify-content: center;
-
-
 }
 
 /* Ingredients images */
@@ -106,4 +104,23 @@ div.row{
   margin-left: 15px;
   display: flex;
   justify-content: center;
+}
+
+
+/*   Learn HTML styles */
+.ing_img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.break{
+  padding: 20px;
+}
+
+.learn_txt{
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
 }
