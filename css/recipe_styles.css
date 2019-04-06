@@ -20,17 +20,17 @@
 }
 
 .car_style{
-  height: 50em;
+  height: 40em;
   width: 50em;
   margin: auto;
 }
 
-div.bkg_image{
-background-image: url("../images/recipe_background.jpg");
-padding: 0px;
-background-repeat: no-repeat;
-background-size: cover;
+div.rec_bkg{
+  width: 100%;
+  border: 3px solid green;
+  padding: 10px;
 }
+
 
 ul.ing_list{
   font-size: 16px;
