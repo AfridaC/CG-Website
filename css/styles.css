@@ -39,23 +39,25 @@ h1{
 }
 
 h3{
+  font-family: 'Podkova';
   text-align: center;
   padding: 10px 300px;
+  font-size: 1em;
 
 }
 
+
 body{
   background-color: rgb(200,255,235);
-  font-family: Courier;
+  font-family: 'Podkova';
   padding: 20px 60px;
 }
 
 /* Titles */
-h1.title{
+h1.title1 {
   font-size: 35px;
   text-align: center;
-  font-style: italic;
-  color: purple;
+  font-family: 'kotta-one';
 }
 
 h2.title2{
@@ -64,8 +66,12 @@ h2.title2{
 }
 
 h3.title3{
+  font-family: 'Special Elite';
   font-size: 15px;
   text-align: center;
+}
+
+
 }
 
 /*Ingridients Titles*/
@@ -76,6 +82,7 @@ div.ing_titles {
   justify-content: center;
 
 }
+
 
 /* All recipe styles  */
 .allrcp_style{
@@ -119,4 +126,16 @@ div.row{
   width: 50%;
   border: 3px solid green;
   padding: 10px;
+}
+
+div.form-group {
+  font-family: 'Kotta One';
+  font-size: 2em;
+  background: hsla(120, 120%, 50%, 0.3);
+}
+
+div.contact-form {
+  background: hsla(120, 120%, 50%, 0.3);
+  font-size: 3em;
+  font-family: 'Kotta-One';
 }
