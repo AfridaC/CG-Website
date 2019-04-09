@@ -150,3 +150,8 @@ div.contact-form {
 p.lead {
   font-family: serif;
 }
+
+div.ing {
+  font-size: 2em;
+  text-align: center;
+}
